@@ -1,0 +1,8 @@
+4.*เป็นคำสั่งเขียนภาพใหม่*
+import cv2
+print(cv2.__version__)
+img = cv2.imread("meow.jpg",0)
+cv2.imshow('MEOW',img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+cv2.imwrite('MEOW NARAK.png',img)
